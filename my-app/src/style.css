@@ -1,0 +1,99 @@
+.main-body{ 
+    margin-top: 50px;
+    height: 379px;
+    width: 360px;
+    background: #0B2434;
+    padding-top: 20px;
+}
+.inside-body{
+    margin: 20px;
+    height: 320px;
+    width: 320px;
+    border-radius: 10px;
+    background: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.die{
+    height: 252.79998779296875px;
+    width: 250.87998962402344px;
+}
+.die-title{
+    margin-left: 12px;
+    height: 31.35999870300293px;
+    width: 197.1199951171875px;
+    font-family: Karla;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: #2B283A;
+}
+.die-p{
+    margin-top: 3px;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: #4A4E74;       
+}
+
+.item1 { grid-area: 1;}
+.item2 { grid-area: 2;}
+.item3 { grid-area: 3;}
+.item4 { grid-area: 4;}
+.item5 { grid-area: 5;}
+.item1 { grid-area: 6;}
+.item2 { grid-area: 7;}
+.item3 { grid-area: 8;}
+.item4 { grid-area: 9;}
+.item5 { grid-area: 10;}
+
+.container{
+    margin-top: 30.72px;
+    display: grid;
+    grid-template-areas: 
+    '1 2 3 4 5'
+    '6 7 8 9 10';
+    row-gap: 18.56px;
+    column-gap: 17.92px;
+}
+.container div{
+    font-family: Karla;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    height: 35.84000015258789px;
+    width: 35.84000015258789px;
+    border-radius: 3.8127658367156982px;
+    box-shadow: 0px 2px 2px 0px #00000026;
+}
+.container div:hover{
+    box-shadow: 0px 0px 5px 3px #4A4E74 ;
+    cursor: pointer;
+}
+button{
+    margin-top: 30.6px;
+    height: 35.84000015258789px;
+    width: 92.15999603271484px;
+    border-radius: 3.8127658367156982px;
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: #5035FF;
+    border: none;
+    color: #ffffff;
+}
+button:active{
+    box-shadow: inset 1px 0px 3px 5px rgb(37, 37, 37) ;
+}
